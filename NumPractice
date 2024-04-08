@@ -1,0 +1,22 @@
+var id=7.6
+console.log(id);
+
+ let num=5
+console.log(typeof num);
+
+let num1=15_00_00_00_000
+console.log(num1)
+
+let num2=1.5e10
+console.log(num2)
+
+let num3=-1.5e10
+console.log(num3);
+
+let num4=5/0
+console.log(num4);
+
+let num5=-5/0
+console.log(num5);
+//MAX VALUE IN JS
+console.log(Number.MAX_VALUE);
