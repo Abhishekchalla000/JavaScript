@@ -1,0 +1,28 @@
+function greet(wish)
+{
+  return `Hello ${wish}`
+}
+var wish = 'Abhi';
+var name = greet(wish);
+console.log(name);
+
+//Function Expression
+
+let sum = function(num1,num2)
+            {
+                return num1 + num2
+            }
+            ;
+let SumOfNum = sum(5,6);
+console.log(SumOfNum);
+
+//Global & local variables
+
+function sum1(num3,num4,/*num5=6*/num5)
+{
+   return num3 + num4 + num5
+}
+let result = sum1(1,2,5);                   //num5=6 takes when didn't passing argument 
+console.log(result);
+
+
