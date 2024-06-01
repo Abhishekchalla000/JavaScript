@@ -1,0 +1,23 @@
+let laptop1 = {
+    ram: '16GB',
+    processor: 'i5',
+    display: 'LCD',
+
+    compare : function (other){
+        if(this.processor>other.processor){
+            console.log(this);
+        }
+        else{
+            console.log(other);
+        }
+    }
+    
+};
+let laptop2 = {
+    ram: '16GB',
+    processor: 'i7',
+    display: 'LED',
+
+};
+laptop1.compare(laptop2);
+//Use 'This' Keyword and create comapare method
